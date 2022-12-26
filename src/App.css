@@ -1,0 +1,288 @@
+/* Default CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  color: white;
+}
+
+button {
+  background: transparent;
+}
+
+button:hover {
+  color: #47126b;
+  background: white;
+}
+
+/* Heading Texts */
+.blu {
+  color: #97dffc;
+}
+
+.heading-text {
+  text-align: center;
+  font-size: 40px;
+}
+
+.subheading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: -10px;
+}
+
+.subheading-text {
+  text-align: center;
+  font-weight: 300;
+}
+
+.line {
+  width: 50px;
+  height: 1.5px;
+  background-color: #ffd500;
+  border-radius: 1px;
+}
+
+/* Banner CSS */
+div .bg {
+  background-image: url("./assets/img/banner.png");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  max-width: 100%;
+}
+
+.bg {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.banner-text {
+  font-size: 1.75rem;
+  margin: 0;
+}
+
+.banner-text,
+.resume-button {
+  margin-left: 7.5%;
+}
+
+.resume-button {
+  border-radius: 100px;
+  color: white;
+  border: 1px solid white;
+  font-size: 1rem;
+  font-weight: 300;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+}
+
+.resume-button:hover {
+  cursor: pointer;
+}
+
+.resume-button .download {
+  padding-right: .25rem;
+}
+
+/* About CSS */
+.aboutme {
+  background: linear-gradient(180deg, #170038, #47126b);
+  padding-top: 8rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 8rem;
+  flex-direction: row;
+}
+
+.aboutme img {
+  max-width: 300px;
+  width: 100%;
+  height: auto;
+  border: 2px solid white;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  border-radius: 50%;
+}
+
+.container p {
+  font-size: 18px;
+  font-weight: 300;
+  padding: .5rem;
+}
+
+.container p:first-child {
+  font-weight: 500;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+/* Skills CSS */
+.skills {
+  background: linear-gradient(180deg, #47126b, #6411ad);
+  padding: 5rem 5rem 2rem;
+}
+
+.skills-container {
+  /* margin: 5rem; */
+  background-color: #121212;
+  border-radius: 10px;
+  padding: 2rem 2rem;
+}
+
+.grid-container {
+  display: inline-grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #282828;
+  border-radius: 10px;
+}
+
+.card h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: .75rem;
+  font-size: 25px;
+  text-align: center;
+  padding: 8% 2% 0;
+}
+
+.card ul {
+  padding-left: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 1rem;
+  font-size: 20px;
+  font-weight: 300;
+  margin: 1rem;
+}
+
+/* Experience CSS */
+.experience {
+  background: linear-gradient(180deg, #6411ad, #822faf, #973aa8, #ac46a1);
+  padding: 5rem 5rem 2rem;
+}
+
+.experience-header {
+  margin-bottom: 2rem;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.main-info-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.experience #bu {
+  height: 50px;
+}
+
+.experience #uob {
+  height: 30px;
+}
+
+.experience #sis {
+  height: 80px;
+}
+
+.experience h3 {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+.experience h4 {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+/* Projects CSS */
+.projects {
+  background: linear-gradient(180deg, #ac46a1, #d55d92);
+  padding: 5rem 5rem 2rem;
+}
+
+/* Media Query */
+@media (max-width:1025px) {
+  .aboutme {
+    padding: 5rem;
+  }
+  .container {
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .container img {
+    margin-bottom: 2rem;
+  }
+
+}
+
+@media (max-width:600px) {
+  .aboutme {
+    padding: 1rem;
+  }
+
+  .container img {
+    width: 150px;
+  }
+
+  .container p {
+    font-size: 12px;
+  }
+
+  .container p:first-child {
+    font-size: 25px;
+  }
+
+  .banner-text {
+    font-size: 1.25rem;
+  }
+
+  .heading-text, .subheading-text {
+    font-size: 20px;
+  }
+}
