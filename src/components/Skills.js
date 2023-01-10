@@ -23,14 +23,21 @@ const Skills = () => {
 
                 <div className="grid-container">
                     <div className="card" data-aos="fade-down" data-aos-delay="400">
-                        <h2><FontAwesomeIcon icon={faCode} />Programming Language</h2>
+                        <h2><FontAwesomeIcon icon={faCode} />Technical</h2>
                         <ul>
                             <li>Python</li>
+                            <li>NumPy</li>
+                            <li>pandas</li>
+                            <li>Matplotlib</li>
                             <li>Java</li>
                             <li>Javascript</li>
+                            <li>Typescript</li>
                             <li>C</li>
+                            <li>C++</li>
+                            <li>OCaml</li>
                             <li>Assembly</li>
                             <li>Bash</li>
+
                         </ul>
                     </div>
                     <div className="card" data-aos="fade-down" data-aos-delay="500">
@@ -40,11 +47,14 @@ const Skills = () => {
                             <li>CSS</li>
                             <li>React</li>
                             <li>Bootstrap</li>
+                            <li>PHP</li>
+                            <li>MySQL</li>
                         </ul>
                     </div>
                     <div className="card" data-aos="fade-down" data-aos-delay="600">
                         <h2><FontAwesomeIcon icon={faWrench} />Tools</h2>
                         <ul>
+                            <li>Git</li>
                             <li>GitHub</li>
                             <li>Docker</li>
                             <li>Vim</li>

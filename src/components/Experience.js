@@ -40,9 +40,9 @@ const Experience = () => {
                             <h4 className="vertical-timeline-element-subtitle"><FontAwesomeIcon icon={faLocationDot} /> Boston, MA</h4>
                         </div>
                     </div>
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                    </p>
+                    <p><b>BA in Computer Science</b> <em>Cumulative GPA: 3.49/4.00</em></p>
+                    <p><b>Expected Graduation:</b> May 2024</p>
+                    <p><b>Honors:</b> Dean's List (3 Semesters)</p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
@@ -53,28 +53,35 @@ const Experience = () => {
                     icon={<FontAwesomeIcon icon={faBriefcase} />}>
                     <div class="main-info">
                         <img src={uob_logo} id="uob"></img>
-                        <div className="main-info-text"><h3 className="vertical-timeline-element-title">UOB</h3>
+                        <div className="main-info-text"><h3 className="vertical-timeline-element-title">United Overseas Bank</h3>
                             <h4 className="vertical-timeline-element-subtitle"><FontAwesomeIcon icon={faLocationDot} /> Jakarta, Indonesia</h4>
                         </div>
                     </div>
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        <b>UOB is a Singaporean multinational banking corporation ranked third in Southeast Asia</b> <a href="http://www.uob.com" target="_blank">(www.uob.com)</a>
+                        <p>▪ Utilized Python and its libraries (NumPy, pandas, Matplotlib, and seaborn) to extract and visualize big data.</p> 
+                        <p>▪ Researched, wrote, and published reports on how conditions affect economic indicators in Indonesia.</p>
+                        <p>▪ Developed essential soft skills in the modern workplace such as leadership, communication, time 
+                                management, conflict resolution and more.</p>
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
                     date="July 2018 - July 2020"
-                    contentStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
-                    contentArrowStyle={{ borderRight: '7px solid  rgb(233, 30, 99)' }}
-                    iconStyle={{ background: 'rgb(233, 30, 99)', color: '#fff' }}
+                    contentStyle={{ background: '#660708', color: '#fff' }}
+                    contentArrowStyle={{ borderRight: '7px solid  #660708' }}
+                    iconStyle={{ background: '#660708', color: '#fff' }}
                     icon={<FontAwesomeIcon icon={faGraduationCap} />}>
                     <div className="main-info">
                         <img src={sis_logo} id="sis"></img>
                         <div className="main-info-text">
                             <h3 className="vertical-timeline-element-title">SIS Kelapa Gading</h3>
                             <h4 className="vertical-timeline-element-subtitle"><FontAwesomeIcon icon={faLocationDot} /> Jakarta, Indonesia</h4>
-                        </div></div><p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </div>
+                    </div>
+                    <p>
+                        <b>International Baccalaureate</b>  <em>Final Grade: 39/45</em></p>
+                        <p><b>Honors:</b> Salutatorian
                     </p>
                 </VerticalTimelineElement>
                 <VerticalTimelineElement

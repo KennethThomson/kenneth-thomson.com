@@ -1,4 +1,4 @@
-import face from "../assets/img/selfie.JPG"
+import face from "../assets/img/selfie.jpg"
 import Aos from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -25,7 +25,7 @@ const About = () => {
                     <p>Nice to meet you!</p>
                     <p>I'm a junior majoring in Computer Science at Boston University and an international student from Indonesia.</p>
                     <p>I like to be productive by spending my time improving myself. This means you'll often see me doing work, going to the gym or reading a good book. My friends call me a workaholic... but it can't be that <b>bad</b>, right?</p>
-                    <p>At Boston University, I've taken courses on <em>computer systems, probability in computing, combinatorics, data structures and algorithms,</em> and many more.</p>
+                    <p>At Boston University, I've taken courses on <em>geometric algorithms, combinatoric structures, computer systems, probability in computing, concepts of programming languages, data structures and algorithms,</em> and many more.</p>
                     <p>I aim to use the skills I've cultivated to work with like-minded ambitious people and create an impact on the people around me.</p>
                 </div>
             </div>

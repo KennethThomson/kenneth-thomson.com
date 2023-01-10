@@ -89,6 +89,10 @@ div .bg {
   margin-left: 7.5%;
 }
 
+.resume-download-form {
+  width: 100%;
+}
+
 .resume-button {
   border-radius: 100px;
   color: white;
@@ -100,6 +104,7 @@ div .bg {
 }
 
 .resume-button:hover {
+  color: #47126b;
   cursor: pointer;
 }
 
@@ -122,7 +127,7 @@ div .bg {
 }
 
 .aboutme img {
-  max-width: 300px;
+  max-width: 350px;
   width: 100%;
   height: auto;
   border: 2px solid white;
