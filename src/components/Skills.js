@@ -56,6 +56,7 @@ const Skills = () => {
                         <ul>
                             <li>Git</li>
                             <li>GitHub</li>
+                            <li>Figma</li>
                             <li>Docker</li>
                             <li>Vim</li>
                             <li>LaTeX</li>
