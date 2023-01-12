@@ -15,7 +15,7 @@ const Experience = () => {
     }, []);
 
     return (
-        <div className="experience">
+        <div className="experience" id="experiences">
             <div data-aos="fade-down" className='experience-header'>
                 <h1 className="heading-text">EXPERIENCES</h1>
                 <div className="subheading">
@@ -58,7 +58,7 @@ const Experience = () => {
                         </div>
                     </div>
                     <p>
-                        <b>UOB is a Singaporean multinational banking corporation ranked third in Southeast Asia</b> <a href="http://www.uob.com" target="_blank">(www.uob.com)</a>
+                        <b>UOB is a Singaporean multinational banking corporation ranked third in Southeast Asia</b> [<a href="http://www.uob.com" target="_blank">www.uob.com</a>]
                         <p>▪ Utilized Python and its libraries (NumPy, pandas, Matplotlib, and seaborn) to extract and visualize big data.</p> 
                         <p>▪ Researched, wrote, and published reports on how conditions affect economic indicators in Indonesia.</p>
                         <p>▪ Developed essential soft skills in the modern workplace such as leadership, communication, time 

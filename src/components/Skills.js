@@ -10,9 +10,9 @@ const Skills = () => {
     }, []);
 
     return (
-        <div className="skills">
+        <div className="skills" id="skills">
             <div className="skills-container" data-aos="zoom-in">
-                <div data-aos="fade" data-aos-delay="300">
+                <div data-aos="fade" data-aos-delay="400">
                     <h1 className="heading-text">SKILLS</h1>
                     <div className="subheading">
                         <div className="line"></div>
@@ -22,7 +22,7 @@ const Skills = () => {
                     </div></div>
 
                 <div className="grid-container">
-                    <div className="card" data-aos="fade-down" data-aos-delay="400">
+                    <div className="card" data-aos="fade-down" data-aos-delay="600">
                         <h2><FontAwesomeIcon icon={faCode} />Technical</h2>
                         <ul>
                             <li>Python</li>
@@ -40,7 +40,7 @@ const Skills = () => {
 
                         </ul>
                     </div>
-                    <div className="card" data-aos="fade-down" data-aos-delay="500">
+                    <div className="card" data-aos="fade-down" data-aos-delay="800">
                         <h2><FontAwesomeIcon icon={faGlobe} />Web</h2>
                         <ul>
                             <li>HTML</li>
@@ -51,7 +51,7 @@ const Skills = () => {
                             <li>MySQL</li>
                         </ul>
                     </div>
-                    <div className="card" data-aos="fade-down" data-aos-delay="600">
+                    <div className="card" data-aos="fade-down" data-aos-delay="1000">
                         <h2><FontAwesomeIcon icon={faWrench} />Tools</h2>
                         <ul>
                             <li>Git</li>

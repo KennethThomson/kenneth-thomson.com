@@ -12,8 +12,8 @@ const Projects = () => {
     }, []);
 
     return (
-        <div className="projects">
-            <div data-aos="fade-down" className='projects-header'>
+        <div className="projects" id="projects">
+            <div data-aos="fade-down" className='projects-header' data-aos-delay="400">
                 <h1 className="heading-text">PROJECTS</h1>
                 <div className="subheading">
                     <div className="line"></div>
@@ -23,22 +23,22 @@ const Projects = () => {
                 </div>
             </div>
             <div className="projects-grid">
-                <div className="projects-grid-item" data-aos="fade-down" data-aos-delay="400">
+                <div className="projects-grid-item" data-aos="fade-down" data-aos-delay="600">
                     <img src={chip8}></img>
                     <h2><span>C++</span></h2>
                     <h2><a href="https://github.com/KennethThomson/chip8_emulator" target="_blank">CHIP-8 Emulator</a></h2>
-                    <p>Coded an emulator that replicated the functionalities of a CHIP-8, an interpreted programming language.</p>
+                    <p>Coded an emulator that replicates the functionalities of a CHIP-8, an interpreted programming language.</p>
                     <p>Implemented the memory, registers, stack, stack pointer, timers, keys, display, and all 34 instructional 
 opcodes, as well as ROM loading and the fetch, decode, and execute cycle for the CPU.</p>
                 </div>
-                <div className="projects-grid-item" data-aos="fade-down" data-aos-delay="600">
+                <div className="projects-grid-item" data-aos="fade-down" data-aos-delay="800">
                     <img src={personal_website}></img>
                     <h2><span>React</span><span>Javascript</span><span>HTML</span><span>CSS</span></h2>
                     <h2><a href="https://github.com/KennethThomson/personal_website" target="_blank">Personal Website</a></h2>
                     <p>Designed a website using Figma and built it using React, a Javascript framework.</p>
                     <p>Made use of various React libraries, HTML, and CSS to style and create effects for the website.</p>
                 </div>
-                <div className="projects-grid-item" data-aos="fade-down" data-aos-delay="600">
+                <div className="projects-grid-item" data-aos="fade-down" data-aos-delay="400">
                     <img src={secure_login_registration}></img>
                     <h2><span>HTML</span><span>CSS</span><span>PHP</span><span>MySQL</span></h2>
                     <h2><a href="https://github.com/KennethThomson/secure_login-registration" target="_blank">Secure Login and Registration</a></h2>
@@ -46,7 +46,7 @@ opcodes, as well as ROM loading and the fetch, decode, and execute cycle for the
                     <p>Used prepared SQL queries and password hashing to prevent SQL injections and attacks for better security.</p>
                     <p>Utilized PHP and MySQL to insert and retrieve private information into and from a secure database.</p>
                 </div>
-                <div className="projects-grid-item" data-aos="fade-down" data-aos-delay="400">
+                <div className="projects-grid-item" data-aos="fade-down" data-aos-delay="600">
                     <img src={chess_visualization}></img>
                     <h2><span>Python</span></h2>
                     <h2><a href="https://github.com/KennethThomson/chess_visualization" target="_blank">Chess Data Visualization</a></h2>

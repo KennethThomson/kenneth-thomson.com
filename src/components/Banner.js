@@ -5,7 +5,7 @@ import resume from '../assets/KennethThomsonResume.pdf'
 
 const Banner = () => {
     return (
-        <div className="bg">
+        <div className="bg" id="home">
             <div className="banner-text animate__animated animate__flipInX">
                 <h1>Hi!</h1>
                 <h1>My name is Kenneth.</h1></div>
