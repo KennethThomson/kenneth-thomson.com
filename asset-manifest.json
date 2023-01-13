@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d40a02e.css",
-    "main.js": "/static/js/main.6e27804b.js",
-    "static/media/banner.png": "/static/media/banner.e0d9adbeccecf43b0741.png",
-    "static/media/selfie.jpg": "/static/media/selfie.a7ce3f0312cfa465c057.jpg",
-    "static/media/personal_website.png": "/static/media/personal_website.0e49847ba61b2d19d1fc.png",
-    "static/media/chess_visualization.png": "/static/media/chess_visualization.a3e31e6966a73ca700a7.png",
-    "static/media/KennethThomsonResume.pdf": "/static/media/KennethThomsonResume.e81ce3adf6428128463f.pdf",
-    "static/media/SIS_logo.png": "/static/media/SIS_logo.1df6499024c6ad8e93a2.png",
-    "static/media/UOB_logo.png": "/static/media/UOB_logo.7188f96ec7e19ec6827b.png",
-    "static/media/BU_logo.png": "/static/media/BU_logo.df04d5b71fa0e1a8f32c.png",
-    "static/media/secure_login_registration.png": "/static/media/secure_login_registration.4dc8ca91e6754e86ac49.png",
-    "index.html": "/index.html",
-    "main.9d40a02e.css.map": "/static/css/main.9d40a02e.css.map",
-    "main.6e27804b.js.map": "/static/js/main.6e27804b.js.map"
+    "main.css": "/kenneth-thomson.com/static/css/main.ec0d2fc3.css",
+    "main.js": "/kenneth-thomson.com/static/js/main.af13b4b1.js",
+    "static/media/banner.png": "/kenneth-thomson.com/static/media/banner.e0d9adbeccecf43b0741.png",
+    "static/media/selfie.jpg": "/kenneth-thomson.com/static/media/selfie.a7ce3f0312cfa465c057.jpg",
+    "static/media/personal_website.png": "/kenneth-thomson.com/static/media/personal_website.0e49847ba61b2d19d1fc.png",
+    "static/media/chess_visualization.png": "/kenneth-thomson.com/static/media/chess_visualization.a3e31e6966a73ca700a7.png",
+    "static/media/KennethThomsonResume.pdf": "/kenneth-thomson.com/static/media/KennethThomsonResume.e81ce3adf6428128463f.pdf",
+    "static/media/SIS_logo.png": "/kenneth-thomson.com/static/media/SIS_logo.1df6499024c6ad8e93a2.png",
+    "static/media/UOB_logo.png": "/kenneth-thomson.com/static/media/UOB_logo.7188f96ec7e19ec6827b.png",
+    "static/media/BU_logo.png": "/kenneth-thomson.com/static/media/BU_logo.df04d5b71fa0e1a8f32c.png",
+    "static/media/secure_login_registration.png": "/kenneth-thomson.com/static/media/secure_login_registration.4dc8ca91e6754e86ac49.png",
+    "index.html": "/kenneth-thomson.com/index.html",
+    "main.ec0d2fc3.css.map": "/kenneth-thomson.com/static/css/main.ec0d2fc3.css.map",
+    "main.af13b4b1.js.map": "/kenneth-thomson.com/static/js/main.af13b4b1.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d40a02e.css",
-    "static/js/main.6e27804b.js"
+    "static/css/main.ec0d2fc3.css",
+    "static/js/main.af13b4b1.js"
   ]
 }
