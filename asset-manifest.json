@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9d40a02e.css",
+    "main.js": "/static/js/main.6e27804b.js",
+    "static/media/banner.png": "/static/media/banner.e0d9adbeccecf43b0741.png",
+    "static/media/selfie.jpg": "/static/media/selfie.a7ce3f0312cfa465c057.jpg",
+    "static/media/personal_website.png": "/static/media/personal_website.0e49847ba61b2d19d1fc.png",
+    "static/media/chess_visualization.png": "/static/media/chess_visualization.a3e31e6966a73ca700a7.png",
+    "static/media/KennethThomsonResume.pdf": "/static/media/KennethThomsonResume.e81ce3adf6428128463f.pdf",
+    "static/media/SIS_logo.png": "/static/media/SIS_logo.1df6499024c6ad8e93a2.png",
+    "static/media/UOB_logo.png": "/static/media/UOB_logo.7188f96ec7e19ec6827b.png",
+    "static/media/BU_logo.png": "/static/media/BU_logo.df04d5b71fa0e1a8f32c.png",
+    "static/media/secure_login_registration.png": "/static/media/secure_login_registration.4dc8ca91e6754e86ac49.png",
+    "index.html": "/index.html",
+    "main.9d40a02e.css.map": "/static/css/main.9d40a02e.css.map",
+    "main.6e27804b.js.map": "/static/js/main.6e27804b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9d40a02e.css",
+    "static/js/main.6e27804b.js"
+  ]
+}
