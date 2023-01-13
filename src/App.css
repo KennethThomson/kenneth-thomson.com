@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 html,
@@ -169,7 +170,7 @@ div .bg {
 }
 
 .skills-container {
-  /* margin: 5rem; */
+  margin: 5rem;
   background-color: #121212;
   border-radius: 24px;
   padding: 2rem;
@@ -365,6 +366,7 @@ div .bg {
 }
 
 .contact input[type=submit] {
+  display: inline-block;
   width: 10%;
   background-color: #282828;
   height: 3rem;
@@ -378,11 +380,6 @@ div .bg {
   background-color: black;  
   cursor: pointer;
   box-shadow: 8px 8px #282828;
-}
-
-.contact input[type=submit]:active {
-  box-shadow: 0px 0px;
-  transform: translate(8px, 8px);
 }
 
 /* NavBar CSS */
@@ -402,10 +399,8 @@ div .bg {
 }
 
 .navbar li {
-  margin: 0 1rem;
   font-weight: bold;
-  padding: 3rem;
-  font-size: 20px;
+  font-size: 18px;
   text-decoration: none;
 }
 
@@ -426,6 +421,7 @@ div .bg {
 
 .footer p {
   margin: 2rem 8rem;
+  opacity: 0.8;
 }
 
 /* Media Query */
@@ -433,6 +429,7 @@ div .bg {
   .aboutme {
     padding: 5rem;
   }
+
   .container {
     flex-direction: column;
     padding-left: 0;
@@ -443,6 +440,32 @@ div .bg {
     margin-bottom: 2rem;
   }
 
+  .skills-container {
+    margin: 0;
+  }
+
+  .navbar ul {
+    height: 4rem;
+  }
+
+  .navbar li {
+    margin: 0 1rem;
+    padding: 0;
+    font-size: 16px;
+  }
+
+  .projects-grid {
+    grid-template-columns: auto;
+  }
+
+  .contact input, textarea {
+    margin: 0.5rem;
+    width: 80%;
+  }
+
+  .contact input[type=submit] {
+    width: 25%;
+  }
 }
 
 @media (max-width:600px) {
@@ -458,15 +481,98 @@ div .bg {
     font-size: 12px;
   }
 
-  .container p:first-child {
-    font-size: 25px;
-  }
-
   .banner-text {
     font-size: 1.25rem;
   }
 
   .heading-text, .subheading-text {
-    font-size: 20px;
+    font-size: 25px;
+  }
+
+  .skills {
+    padding: 0 2rem;
+  }
+
+  .skills-container {
+    margin: 0;
+  }
+
+  .grid-container {
+    grid-template-columns: auto;
+    padding: 0;
+  }
+
+  .card h2 {
+    font-size: 18px;
+  }
+
+  .card ul {
+    font-size: 16px;
+  }
+
+  .experience {
+    padding: 5rem 1rem 0;
+    font-size: 10px;
+  }
+
+  .projects {
+    padding: 5rem 1rem 0;
+  }
+
+  .projects-grid {
+    margin-top: 1rem;
+    grid-template-columns: auto;
+    gap: 2rem;
+  }
+
+  .projects-grid-item {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 14px;
+  }
+
+  .projects-grid-item img {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .projects-grid-item span {
+    font-size: 14px;
+  }
+
+  .contact {
+    padding: 5rem 1rem 1rem;
+  }
+
+  .contact input, textarea {
+    font-size: 16px;
+    width: 100%;
+  }
+
+  .contact input[type=submit] {
+    margin-top: 1rem;
+    width: 50%;
+    box-shadow: 5px 5px black;
+  }
+
+  .navbar ul {
+    height: 2.5rem;
+  }
+
+  .navbar li {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+  }
+
+  .footer {
+    padding: 2rem 0 1rem;
+    flex-direction: column;
+  }
+  .footer p {
+    margin: 0;
+    font-size: 14px;
   }
 }
